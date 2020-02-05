@@ -11,7 +11,7 @@ export const Image = styled.img`
   border: 1px solid #5d5d5d;
 `
 
-export const Submit = styled.button.attrs({type:'submit'})`
+export const Submit = styled.button.attrs({ type: 'submit' })`
     height: 32px;
     margin: 8px 0;
     border: 1px solid #bccc59;
@@ -22,5 +22,15 @@ export const Submit = styled.button.attrs({type:'submit'})`
     &:hover{
       background-color: #8b9a2c;
       border-color: #8b9a2c;
+    }
+`;
+
+export const Clear = styled(Submit)`
+  background-color:#cc5959;
+  border-color:#cc5959;
+
+  &:hover{
+      background-color: #c30000;
+      border-color: #c30000;
     }
 `;
